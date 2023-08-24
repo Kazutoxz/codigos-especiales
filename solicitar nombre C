@@ -1,0 +1,6 @@
+#include <stdio.h>
+Int main (){
+char nombre [100];
+printf ("dame tu nombre");
+scanf ("%s",& nombre);
+}
