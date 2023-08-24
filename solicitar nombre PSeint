@@ -1,0 +1,5 @@
+Algoritmo solicitar_Nombre
+	Escribir "dame su nombre"
+	Leer Nombre
+	Escribir "tu nombre es "
+FinAlgoritmo
