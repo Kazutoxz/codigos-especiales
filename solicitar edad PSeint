@@ -1,0 +1,5 @@
+Algoritmo solicitar_edad
+	Escribir "deme su edad"
+	Leer edad
+	Escribir "tu edad es " edad;
+FinAlgoritmo
