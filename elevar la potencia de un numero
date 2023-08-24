@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* desarrollar un programa que sea capaz de elevar  la potencia n un numero x*/
+/* desarrollar un programa que sea capaz de elevar la potencia en un numero x*/
 int main(int argc, char *argv[]) {
 	int numero, potencia; // Aquí guardaremos lo que ingrese el usuario
 	printf("Ingresa el numero:\n");
