@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	char nombre [100];
+	printf ("deme su nombre: \n");
+	scanf ("%s",&nombre);
+	printf ("hola que tal %s",nombre);
+	return 0;
+}
