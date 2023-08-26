@@ -1,0 +1,32 @@
+Algoritmo Calculadora_fachera_facherita
+    Definir num1, num2, resultado Como Real
+    Definir operacion Como Entero
+	
+    Escribir "Bienvenidos a esta calculadora fachera facherita"
+    Escribir "Ingrese el primer número: "
+    Leer num1
+    Escribir "Ingrese el segundo número: "
+    Leer num2
+	
+    Escribir "Seleccione la operación:"
+    Escribir "1. Suma"
+    Escribir "2. Resta"
+    Escribir "3. Multiplicación"
+    Escribir "4. División"
+    Leer operacion
+	
+    Segun operacion Hacer
+        1: resultado = num1 + num2
+        2: resultado = num1 - num2
+        3: resultado = num1 * num2
+        4: Si num2 <> 0 Entonces
+				resultado = num1 / num2
+			Sino
+				Escribir "¡Error! No se puede dividir entre cero."
+			FinSi
+        Otro:
+            Escribir "¡Error! Opción inválida."
+    FinSegun
+	
+    Escribir "El resultado es: ", resultado
+FinAlgoritmo
