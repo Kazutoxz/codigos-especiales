@@ -1,0 +1,17 @@
+Algoritmo Operadores_Relaciones
+    Definir n1, n2 como Entero
+    Escribir "Ingrese el primer número: "
+    Leer n1
+    Escribir "deme el segundo número: "
+    Leer n2
+    Si n1 > n2 Entonces
+        Escribir "El primer número es mayor que el segundo."
+    FinSi
+    Si n1 < n2 Entonces
+        Escribir "El primer número es menor que el segundo."
+    FinSi
+    Si n1 = n2 Entonces
+        Escribir "Los números son iguales."
+    FinSi
+	
+FinAlgoritmo
