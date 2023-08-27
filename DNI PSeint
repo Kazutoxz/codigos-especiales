@@ -1,0 +1,6 @@
+Algoritmo DNI
+Escrbir "ingresa tu DNI"
+Leer DNI
+Definir DNI como caracter
+Escribir "tu DNI es "
+FinAlgoritmo
