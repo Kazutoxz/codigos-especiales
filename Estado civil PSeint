@@ -1,0 +1,11 @@
+Algoritmo estado_Civil
+Escribir "dime tu estado civil"
+Leer estado civil
+Si estado civil >= soltero entonces
+   Escribir "eres soltero"
+   SiNo
+    Si estado civil >=casado entonces
+     Escribir "estas casado"
+    finSi
+finSi
+FinAlgoritmo
