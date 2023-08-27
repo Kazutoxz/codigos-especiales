@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main (){
+int puntuacion 
+printf("ingrese la puntuacion del estudiante");
+scanf("%d",& puntuacion);
+    if (puntuacion >= 90 && puntuacion <= 100) {
+        printf(calificacion: A\n);
+    } else if (puntuacion >= 80 && puntuacion < 90) {
+        printf(calificacion: B\n);
+    } else if (puntuacion >= 70 && puntuacion < 80) {
+        printf(calificacion: C\n);
+    } else if (puntuacion >= 60 && puntuacion < 70) {
+        printf(calificacion: D\n);
+    } else if (puntuacion >= 0 && puntuacion < 60) {
+        printf(calificacion: F\n);
+    } else if {
+        printf("puntuacion inválida \n");
+    }
+    return 0;
+    }
+    
